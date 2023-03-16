@@ -1,7 +1,7 @@
 {
-  "name": "vue-freshchat",
-  "version": "0.2.4",
-  "description": "A Freshchat plugin for Vue.js",
+  "name": "vue-freshchat-new",
+  "version": "0.0.1",
+  "description": "A Freshchat plugin for Vue.js. Includes config object",
   "main": "dist/vue-freshchat.js",
   "directories": {
     "example": "example"
@@ -9,7 +9,7 @@
   "scripts": {
     "build": "rollup -c && uglifyjs -c -o dist/vue-freshchat.min.js dist/vue-freshchat.js"
   },
-  "author": "Duhamel <duhamelgm@gmail.com>",
+  "author": "klvnmarshall <klvnmarshall@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.10.5",
@@ -26,6 +26,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/duhamelgm/vue-freshchat.git"
+    "url": "https://github.com/klvnmarshall/vue-freshchat.git"
   }
 }
